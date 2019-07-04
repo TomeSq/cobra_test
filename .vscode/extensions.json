@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"ms-vscode.Go",
+		"editorconfig.editorconfig",
+		"janjoerke.jenkins-pipeline-linter-connector",
+		"ivory-lab.jenkinsfile-support"
+	]
+}

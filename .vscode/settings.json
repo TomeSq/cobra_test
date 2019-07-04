@@ -1,0 +1,25 @@
+{
+	//GO言語の設定
+	"go.buildOnSave": "package",
+	"go.lintOnSave": "package",
+	"go.vetOnSave": "package",
+	"go.gopath": "${workspaceFolder}",
+	"go.testTimeout": "10m",
+	"go.formatTool": "goreturns",
+	"go.formatFlags": ["-w"],
+
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"[go]": {
+		"editor.formatOnSave": true
+	},
+
+	//ターミナルにパス変数を通す
+	"terminal.integrated.env.windows": {
+		"PATH": "${env:PATH};${workspaceRoot}\\bin",
+		"GOPATH": "${workspaceFolder}"
+	},
+
+	//推奨拡張機能をインストールさせる
+	"extensions.showRecommendationsOnlyOnDemand": false
+}
